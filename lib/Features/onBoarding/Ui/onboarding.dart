@@ -1,9 +1,6 @@
-import 'dart:developer';
-
 import 'package:docdoc/Core/Helpers/extensions.dart';
 import 'package:docdoc/Core/Helpers/spacing.dart';
 import 'package:docdoc/Core/Theming/font_styles.dart';
-import 'package:docdoc/Features/login/Ui/login.dart';
 import 'package:docdoc/Features/onBoarding/Ui/widgets/doc_doc_logo.dart';
 import 'package:docdoc/Features/onBoarding/Ui/widgets/doctor_image_and_title.dart';
 import 'package:flutter/material.dart';
