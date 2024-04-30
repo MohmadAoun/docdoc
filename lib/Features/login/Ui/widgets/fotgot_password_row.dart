@@ -30,10 +30,7 @@ class ForgotPasswordRow extends StatelessWidget {
             mouseCursor: MaterialStateMouseCursor.clickable,
             style: TextStyles.font12BlueRegular,
             text: 'Forgot Password?',
-            recognizer: TapGestureRecognizer()
-              ..onTap = () {
-                print('test');
-              },
+            recognizer: TapGestureRecognizer()..onTap = () {},
           ),
         ),
       ],

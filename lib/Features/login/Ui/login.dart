@@ -1,19 +1,11 @@
 import 'package:docdoc/Core/Helpers/spacing.dart';
-import 'package:docdoc/Core/Theming/colors.dart';
 import 'package:docdoc/Core/Theming/font_styles.dart';
 import 'package:docdoc/Core/Widgets/app_text_button.dart';
-import 'package:docdoc/Core/Widgets/app_text_form_field.dart';
 import 'package:docdoc/Features/login/Ui/widgets/alternative_sign_in.dart';
 import 'package:docdoc/Features/login/Ui/widgets/email_and_password_form.dart';
-import 'package:docdoc/Features/login/Ui/widgets/fotgot_password_row.dart';
 import 'package:docdoc/Features/login/Ui/widgets/text_with_line.dart';
-import 'package:dotted_line/dotted_line.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
