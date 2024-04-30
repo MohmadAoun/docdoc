@@ -1,6 +1,7 @@
 import 'package:docdoc/Core/Theming/colors.dart';
 import 'package:docdoc/Core/Theming/font_weight_helper.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -46,13 +47,26 @@ class TextStyles {
     fontWeight: FontWeightHelper.semiBold,
     color: Colors.white,
   );
-
+  static TextStyle font12BlueRegular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: ColorsManager.mainBlue,
+  );
+  static TextStyle font12MediumGrayRegular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: ColorsManager.mediumGray,
+  );
   static TextStyle font11GrayRegular = TextStyle(
     fontSize: 11.sp,
     fontWeight: FontWeightHelper.regular,
     color: ColorsManager.gray,
   );
-
+  static TextStyle font11BlackRegular = TextStyle(
+    fontSize: 11.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: ColorsManager.balck,
+  );
   static TextStyle font13BlueRegular = TextStyle(
     fontSize: 13.sp,
     fontWeight: FontWeightHelper.regular,
